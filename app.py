@@ -31,6 +31,7 @@ def get_stock_table():
     return html.Div([
     html.H2("Orbis Tax Admin"),
     dcc.Markdown("""---""", style={"width": "50%"}),
+    dcc.Markdown("Created by Rafael Schmidt"),
     html.Div([
         html.Br(),
         dcc.Input(value='', id='filter-input', placeholder='Busca Texto...', debounce=False),
